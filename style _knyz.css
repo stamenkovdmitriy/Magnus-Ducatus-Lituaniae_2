@@ -1,0 +1,65 @@
+html{
+    background-image: url(img/back2.jpg) ;
+    background-size: 100%;
+    background-attachment: fixed;
+}
+body{
+    font-family: 'MyFont';
+    font-size: 100%;
+    margin: 3% 20%; 
+    background-color: rgb(253, 247, 219, .9);
+    box-shadow: 1em 2em .9em black;    
+}
+header{
+    background-color: rgb(201, 180, 86);   
+    padding: 2%;
+    background-image: url(img/gerb.png) ;
+    background-size: 12%;
+    background-repeat: no-repeat;
+    background-position: center;
+    box-shadow: 0em 0.2em .9em black;
+}
+main{
+    margin:  0 5%;
+    padding: 5%;
+}
+footer{
+    height: 4rem;
+    background-color: rgb(201, 180, 86);
+}
+h1{
+    color: rgb(250, 244, 216);
+    font-size: 3rem;
+    text-align: center;
+    text-shadow: .1em .1em  .2em black;
+
+}
+h3{
+    color: rgb(250, 244, 216);
+    font-size: 2rem;
+    text-align: center;
+    text-shadow: .1em .1em .8em black;
+    padding: 0%;
+}
+p{
+    text-align: justify;
+    text-indent: 2em;
+    margin: 4% 4%;
+    color: #070707;
+}
+p::first-letter{
+    color: red;
+    font-size: 4em;
+}
+.leftimg {
+    float:left; /* Выравнивание по левому краю */
+    margin: 7px 7px 7px 0; /* Отступы вокруг картинки */
+}
+.home{
+    margin-right: 2%;
+    margin-bottom: 1%;
+}
+@font-face {
+    font-family: 'MyFont';
+    src: url('ofont.ru_Vinque\ Rg.ttf');
+}
